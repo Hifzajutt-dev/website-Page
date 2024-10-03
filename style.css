@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+body,
+html {
+  width: 100%;
+}
+.main {
+  width: 100%;
+}
+.main_section {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+}
+.nav a {
+  font-size: 18px;
+}
+.nav h3 {
+  text-transform: uppercase;
+}
+.heading {
+  margin-top: 90px;
+}
+.heading h1 {
+  text-transform: uppercase;
+  font-size: 10vw;
+  line-height: 1;
+  font-weight: 800;
+  opacity: 0.6;
+  margin-left: 90px;
+}
+.heading #secondh1 {
+  margin-left: 250px;
+}
+.blocktext {
+  width: fit-content;
+}
+.blocktext h5 {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.center_section {
+  margin-top: 80px;
+  padding: 20px 40px;
+}
+.center_section h5 {
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 0 2vw;
+}
+.footer .icons {
+  display: flex;
+}
+.footer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
